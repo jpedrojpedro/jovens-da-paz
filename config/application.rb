@@ -25,5 +25,8 @@ module JovensDaPaz
 
     # Custom Fonts
     config.assets.paths << Rails.root.join("app", "assets", "flash")
+
+    # Enable asset pipeline
+    config.assets.enabled = true
   end
 end
