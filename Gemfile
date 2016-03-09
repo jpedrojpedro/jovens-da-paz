@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
-# Use Postgres as the database for Active Record
-gem 'pg'
+# Use Postgres as the production database for Active Record
+gem 'pg', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -38,6 +38,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails_12factor', group: :production
 
 group :development, :test do
+  # Use SQLite3 as the development database for Active Record
+  gem 'sqlite3', group: :development
+  # Debug application
   gem 'pry-byebug'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
