@@ -5,6 +5,8 @@ ruby '2.1.5'
 gem 'rails', '4.2.0'
 # Use Postgres as the production database for Active Record
 gem 'pg', group: :production
+# Use Puma web server only in production
+gem 'puma', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
