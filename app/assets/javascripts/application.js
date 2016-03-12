@@ -23,5 +23,4 @@
 //= require ./plugins/jquery.easing.min
 //= require ./plugins/jquery.validate.min
 //= require ./plugins/additional-methods.min
-//= require hallooou
 //
