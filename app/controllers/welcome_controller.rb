@@ -4,4 +4,7 @@ class WelcomeController < ApplicationController
 
   def enrollment
   end
+
+  def visitation
+  end
 end
