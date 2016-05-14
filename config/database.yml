@@ -1,14 +1,16 @@
-development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+default: &default
+  adapter: postgresql
+  template: template0
   pool: 5
   timeout: 5000
 
+development:
+  <<: *default
+  database: jovens_da_paz_development
+
 test:
-  adapter: sqlite3
-  database: db/test.sqlite3
-  pool: 5
-  timeout: 5000
+  <<: *default
+  database: jovens_da_paz_test
 
 production:
   adapter: postgresql
