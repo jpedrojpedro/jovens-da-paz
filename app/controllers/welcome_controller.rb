@@ -7,4 +7,7 @@ class WelcomeController < ApplicationController
 
   def visitation
   end
+
+  def visitation_feedback
+  end
 end

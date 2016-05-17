@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get 'inscricao' => 'welcome#enrollment'
   get 'visitacao' => 'welcome#visitation'
+  get 'visitacao/feedback' => 'welcome#visitation_feedback'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
