@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Museo 700';
+    src: url('Museo700-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: rgba(41,172,227, 1);
+    margin: 0 auto;
+}
+
+.circle .text {
+    color: rgba(255,255,255, 1);
+    font-family: 'Museo 700', Arial, sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.circle .number {
+    color: rgba(255,255,255, 1);
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin: 40px 0 -30px -100px;
+}
