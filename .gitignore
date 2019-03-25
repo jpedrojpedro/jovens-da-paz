@@ -67,3 +67,4 @@ bower.json
 
 # IntelliJ IDEs gitignore
 .idea/
+.env
